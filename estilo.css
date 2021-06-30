@@ -2,16 +2,27 @@ body{
     
     background-size: contain;
     font: normal 13pt arial;
-    
+    background:url("novahello.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
-header{
-    text-align: center;
-    color:black;
-    padding: 20px;
-    font: normal 15pt arial;
+section#titulo{
 
-    
+    background-color:pink;
+    border-radius: 10px;
+    position:absolute;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.514);
+    text-align: center;
+    color:purple;
+    padding: 5px;
+    font: normal 20pt arial;
+    left: 460px;
+    opacity: 90%;
 }
 
 section#mult{
@@ -65,9 +76,9 @@ section#sub{
 footer{
     text-align: center;
     font:normal 15px arial;
-    background: white;
+    background: pink;
     border-radius: 10px;
-    padding:15px;
+    padding:5px;
     width: 500px;
     margin: auto;
     margin-top: 15px;
@@ -75,6 +86,7 @@ footer{
     position:absolute;
     top: 650px;
     left: 400px;
+    opacity: 70%;
 
 }
 
