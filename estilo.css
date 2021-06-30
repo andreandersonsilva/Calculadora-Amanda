@@ -1,13 +1,15 @@
 body{
-    background: url("novahello.png");
+    
     background-size: contain;
-    font: normal 15pt arial;
+    font: normal 13pt arial;
+    
 }
 
 header{
     text-align: center;
     color:black;
     padding: 20px;
+    font: normal 15pt arial;
 
     
 }
