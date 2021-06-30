@@ -14,14 +14,14 @@ section#titulo{
     border-radius: 10px;
     position:absolute;
     padding: 10px;
-    width: 400px;
+    width: 600px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(0,0,0,0.514);
     text-align: center;
     color:purple;
     padding: 5px;
     font: normal 20pt arial;
-    left: 460px;
+    left: 350px;
     opacity: 90%;
 }
 
