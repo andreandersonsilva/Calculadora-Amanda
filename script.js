@@ -14,13 +14,17 @@ function tabuada(){
         //Agora vai ser criada a tabuada
         //Crio o contador do valor que será multiplicado
         var c = 1
+        tab.innerHTML = ''
         while(c <= 10){
             //foi criado uma variável para o select do tipo opções
             var item = document.createElement("option")
             item.text = `${n} x ${c} = ${n*c}`
             //Aqui eu informo na variável TAB que é onde há o espaço em branco que será inserido a tabuada
             //montada
+            
             tab.appendChild(item)
+
+            item.value=`tab${c}`
             //Necessário incrementar o valor de C
             c++
         }
